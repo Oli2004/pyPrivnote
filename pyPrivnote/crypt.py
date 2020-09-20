@@ -4,8 +4,8 @@
 
 from base64 import b64decode, b64encode
 from hashlib import md5
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import unpad, pad
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import unpad, pad
 
 from .util import score_salt
 
